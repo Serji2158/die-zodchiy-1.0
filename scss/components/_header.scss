@@ -1,0 +1,44 @@
+.nav {
+  padding-top: 30px;
+
+  .nav-list {
+    @extend %flex;
+    justify-content: space-between;
+
+    .nav-item {
+      text-align: left;
+      .nav-text,
+      .nav-link {
+        color: #000;
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+      .nav-link {
+        font-size: 16px;
+      }
+
+      .auth-wrap {
+        @extend %flex;
+        justify-content: space-between;
+
+        .auth-link {
+          color: #000;
+          font-size: 16px;
+          line-height: 1.5;
+        }
+
+        .line::before {
+          content: '';
+          display: block;
+          width: 3px;
+          height: 16px;
+          margin-left: 5px;
+          margin-right: 5px;
+
+          background-color: #000;
+        }
+      }
+    }
+  }
+}

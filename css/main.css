@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Avenir-Next-Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../fonts/Avenir-Next-Condensed.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Avenir-Next-Condensed-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../../fonts/avenir-next-condensed-bold.ttf") format("ttf");
+}
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #fdf8f0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+}
+
+body {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+}
+
+.nav .nav-list .nav-item .auth-wrap, .nav .nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nav {
+  padding-top: 30px;
+}
+.nav .nav-list {
+  justify-content: space-between;
+}
+.nav .nav-list .nav-item {
+  text-align: left;
+}
+.nav .nav-list .nav-item .nav-text,
+.nav .nav-list .nav-item .nav-link {
+  color: #000;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.nav .nav-list .nav-item .nav-link {
+  font-size: 16px;
+}
+.nav .nav-list .nav-item .auth-wrap {
+  justify-content: space-between;
+}
+.nav .nav-list .nav-item .auth-wrap .auth-link {
+  color: #000;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.nav .nav-list .nav-item .auth-wrap .line::before {
+  content: "";
+  display: block;
+  width: 3px;
+  height: 16px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #000;
+}/*# sourceMappingURL=main.css.map */
