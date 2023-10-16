@@ -1,3 +1,57 @@
+.container {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.hero-container {
+  position: relative;
+}
+
+.nav {
+  padding-top: 30px;
+}
+.nav .nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+.nav .nav-list .nav-item {
+  text-align: left;
+}
+.nav .nav-list .nav-item .nav-text,
+.nav .nav-list .nav-item .nav-link {
+  color: #000;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.nav .nav-list .nav-item .nav-link {
+  font-size: 16px;
+}
+.nav .nav-list .nav-item .auth-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+.nav .nav-list .nav-item .auth-wrap .auth-link {
+  color: #000;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.nav .nav-list .nav-item .auth-wrap .line::before {
+  content: "";
+  display: block;
+  width: 3px;
+  height: 16px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #000;
+}
+
 @font-face {
   font-family: "Avenir-Next-Condensed";
   font-style: normal;
@@ -31,9 +85,6 @@ a {
 
 body {
   background-color: #fdf8f0;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
 }
 
 body {
@@ -42,57 +93,10 @@ body {
   font-weight: 600;
 }
 
-.hero-content .content-info .hero-sticker, .hero-content .content-info .info-list .list-item, .hero-content .content-info, .nav .nav-list .nav-item .auth-wrap, .nav .nav-list {
+.hero-content .content-info .getToKnow-box .getToKnow-link, .hero-content .content-info .info-list .list-item {
   display: flex;
   align-items: center;
-}
-
-.container {
-  width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.hero-container {
-  position: relative;
-}
-
-.nav {
-  padding-top: 30px;
-}
-.nav .nav-list {
-  justify-content: space-between;
-}
-.nav .nav-list .nav-item {
-  text-align: left;
-}
-.nav .nav-list .nav-item .nav-text,
-.nav .nav-list .nav-item .nav-link {
-  color: #000;
-  font-size: 18px;
-  line-height: 1.5;
-}
-.nav .nav-list .nav-item .nav-link {
-  font-size: 16px;
-}
-.nav .nav-list .nav-item .auth-wrap {
-  justify-content: space-between;
-}
-.nav .nav-list .nav-item .auth-wrap .auth-link {
-  color: #000;
-  font-size: 16px;
-  line-height: 1.5;
-}
-.nav .nav-list .nav-item .auth-wrap .line::before {
-  content: "";
-  display: block;
-  width: 3px;
-  height: 16px;
-  margin-left: 5px;
-  margin-right: 5px;
-  background-color: #000;
+  justify-content: center;
 }
 
 .numbers-hr {
@@ -143,32 +147,27 @@ body {
 
 .hero-content {
   margin-top: 20px;
-  margin-right: 44px;
+  margin-right: 50px;
 }
 .hero-content .content-info {
+  display: flex;
   position: relative;
 }
-.hero-content .content-info .sub-title {
-  padding: 10px;
+.hero-content .content-info .title {
+  width: 1140px;
   color: #53593b;
   font-size: 265px;
   font-weight: 700;
   line-height: 0.9;
   text-transform: uppercase;
 }
-.hero-content .content-info .stain-big {
-  position: absolute;
-  z-index: -1;
-  top: 65px;
-  left: 0;
-}
 .hero-content .content-info .info-list {
-  margin-left: 12px;
-  margin-top: 20px;
+  position: absolute;
+  top: 23px;
+  left: 491px;
 }
 .hero-content .content-info .info-list .list-item {
   padding: 7px 30px;
-  justify-content: center;
   border-radius: 20px;
   border: 1px solid #d69347;
   color: #292928;
@@ -190,40 +189,59 @@ body {
 .hero-content .content-info .info-list .list-item + .list-item {
   margin-top: 10px;
 }
-.hero-content .content-info .nadya-hero-img {
-  margin-left: auto;
-}
-.hero-content .content-info .link-linkedin-nadya {
-  position: absolute;
-  top: 16px;
-  right: 329px;
-}
-.hero-content .content-info .petal-small {
+.hero-content .content-info .petals .petal-small {
   position: absolute;
   top: 64px;
   left: 64%;
 }
-.hero-content .content-info .petal-medium {
+.hero-content .content-info .petals .petal-medium {
   position: absolute;
   top: 32px;
   left: 64%;
 }
-.hero-content .content-info .petal-large {
+.hero-content .content-info .petals .petal-large {
   position: absolute;
   top: 6px;
   left: 65.5%;
 }
-.hero-content .content-info .stain-medium {
+.hero-content .content-info .getToKnow-box {
+  position: absolute;
+  right: 0;
+}
+.hero-content .content-info .getToKnow-box .stain-medium {
   position: absolute;
   z-index: -1;
   top: 22px;
   right: 231px;
 }
-.hero-content .content-info .hero-sticker {
+.hero-content .content-info .getToKnow-box .girls {
+  display: flex;
+}
+.hero-content .content-info .getToKnow-box .girls .nadya-hero .nadya-hero-img {
+  margin-left: auto;
+}
+.hero-content .content-info .getToKnow-box .girls .nadya-hero .link-linkedin-nadya {
   position: absolute;
-  top: 227px;
-  right: 153px;
-  justify-content: center;
+  left: 85px;
+  top: 9px;
+}
+.hero-content .content-info .getToKnow-box .girls .nadya-hero .link-linkedin-nadya:hover {
+  transform: scale(1.5);
+}
+.hero-content .content-info .getToKnow-box .girls .sasha-hero .sasha-hero-img {
+  margin-left: 27px;
+}
+.hero-content .content-info .getToKnow-box .girls .sasha-hero .link-linkedin-sasha {
+  position: absolute;
+  right: 150px;
+}
+.hero-content .content-info .getToKnow-box .girls .sasha-hero .link-linkedin-sasha:hover {
+  transform: scale(1.5);
+}
+.hero-content .content-info .getToKnow-box .getToKnow-link {
+  position: absolute;
+  top: 215px;
+  right: 145px;
   width: 200px;
   height: 60px;
   transform: rotate(9deg);
@@ -235,22 +253,17 @@ body {
   font-size: 20px;
   line-height: 1.5;
 }
-.hero-content .content-info .sasha-hero-img {
-  margin-left: 27px;
-}
-.hero-content .content-info .link-linkedin-sasha {
-  position: absolute;
-  top: 12px;
-  right: 150px;
+.hero-content .content-info .getToKnow-box .getToKnow-link:hover {
+  background-color: #fdf8f0;
+  color: #292928;
+  border: 1px solid #d69347;
 }
 
-.title {
-  width: 1140px;
-  color: #53593b;
-  font-size: 265px;
-  font-weight: 700;
-  line-height: 0.9;
-  text-transform: uppercase;
+.stain-big {
+  position: absolute;
+  z-index: -1;
+  top: 40px;
+  left: 0;
 }
 
 .stain-small {

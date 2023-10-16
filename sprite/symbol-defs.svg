@@ -73,5 +73,8 @@
 <symbol id='petal-l' >
   <path d="M19.0295 3.34884C1.75601 -5.93198 -4.08533 13.4595 7.47644 42.5231C7.47644 42.5231 8.70985 44.9411 9.36377 42.6078C10.0177 40.2745 36.3031 12.6297 19.0295 3.34884Z" fill="#59613D" stroke="#59613D"/>
 </symbol>
+<symbol id='burger' width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <path d="M3 6H21M3 12H21M3 18H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
 </defs>
 </svg>
