@@ -104,20 +104,22 @@
     }
 
     .petals {
+      right: 489px;
+      position: absolute;
       .petal-small {
         position: absolute;
-        top: 64px;
-        left: 64%;
+        top: 48px;
+        left: 12px;
       }
       .petal-medium {
         position: absolute;
-        top: 32px;
-        left: 64%;
+        top: 18px;
+        left: 9px;
       }
       .petal-large {
         position: absolute;
-        top: 6px;
-        left: 65.5%;
+        top: -4px;
+        left: 32px;
       }
     }
 
@@ -192,19 +194,28 @@
         }
       }
     }
+
+    .stain-big {
+      position: absolute;
+      z-index: -1;
+      top: 25px;
+      left: -40px;
+    }
+
+    .stain-small {
+      position: absolute;
+      z-index: -1;
+      bottom: -25px;
+      left: 765px;
+    }
   }
 }
 
-.stain-big {
-  position: absolute;
-  z-index: -1;
-  top: 40px;
-  left: 0;
-}
-
-.stain-small {
-  position: absolute;
-  z-index: -1;
-  bottom: -25px;
-  left: 765px;
+.title-desc {
+  width: 487px;
+  margin-top: 25px;
+  color: $primaryColor;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 1.2;
 }

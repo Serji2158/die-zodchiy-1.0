@@ -1,6 +1,17 @@
-
-body {  
+body {
   font-family: $mainFont;
   font-style: normal;
   font-weight: 600;
+  line-height: 1.5;
+}
+
+.section-title {
+  color: $primaryColor;
+  font-size: 40px;
+}
+
+
+section:not(:first-child) {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
