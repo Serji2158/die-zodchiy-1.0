@@ -1,32 +1,32 @@
 .nav {
   padding-top: 30px;
 
-  .nav-list {
+  .menu-list {
     // @extend %flex;
     display: flex;
     align-items: center;
-    justify-content: center;
-    justify-content: space-between;
+   // justify-content: space-between;
+    column-gap: 310px;
 
-    .nav-item {
+    .menu-item {
       text-align: left;
-      padding: 10px 20px;
+      // padding: 10px 20px;
 
       &:hover {
         padding: 7px 20px;
         border-radius: 20px;
         border: 2px solid #d69347;
         // background-color: #d69347;
-        cursor: pointer;        
+        cursor: pointer;
       }
-      .nav-text,
-      .nav-link {
+      .menu-text,
+      .menu-link {
         color: #000;
         font-size: 18px;
         line-height: 1.5;
       }
 
-      .nav-link {
+      .menu-link {
         font-size: 16px;
       }
 

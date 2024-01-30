@@ -1,11 +1,11 @@
 .courses {
   display: flex;
   margin-top: 60px;
-  margin-left: -32px;
+  padding: 0 35px;
+  column-gap: 15px;
 
   .course {
-    flex-basis: calc((100% - 96px) / 3);
-    margin-left: 32px;
+    flex-basis: calc((100% - 30px) / 3);
 
     // .course-img {
     //   display: block;
@@ -51,7 +51,7 @@
         font-weight: 500;
         line-height: 1.3;
       }
-      
+
       .star-big {
         position: absolute;
         top: -52px;
@@ -131,4 +131,34 @@
       background-color: #c7c7c7;
     }
   }
+
+  button[data-bs-slide-to] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: $primaryColor;
+  }
+
+  .carousel-indicators {
+    bottom: -65px;
+    margin-bottom: 0;
+    column-gap: 5px;
+  }
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top:50%;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  background-color: #53593B;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 15px;
+  height: 15px;
+
 }
