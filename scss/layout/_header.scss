@@ -5,20 +5,22 @@
     // @extend %flex;
     display: flex;
     align-items: center;
-   // justify-content: space-between;
-    column-gap: 310px;
+    justify-content: space-between;
+    // column-gap: 310px;
+    width: 100%;
 
     .menu-item {
       text-align: left;
-      // padding: 10px 20px;
+      padding: 7px 20px;
 
       &:hover {
-        padding: 7px 20px;
+       
         border-radius: 20px;
-        border: 2px solid #d69347;
+       outline: 3px solid #d69347;
         // background-color: #d69347;
         cursor: pointer;
       }
+
       .menu-text,
       .menu-link {
         color: #000;

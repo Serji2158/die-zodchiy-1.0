@@ -74,16 +74,16 @@ section:not(:first-child) {
 .nav .menu-list {
   display: flex;
   align-items: center;
-  -moz-column-gap: 310px;
-       column-gap: 310px;
+  justify-content: space-between;
+  width: 100%;
 }
 .nav .menu-list .menu-item {
   text-align: left;
+  padding: 7px 20px;
 }
 .nav .menu-list .menu-item:hover {
-  padding: 7px 20px;
   border-radius: 20px;
-  border: 2px solid #d69347;
+  outline: 3px solid #d69347;
   cursor: pointer;
 }
 .nav .menu-list .menu-item .menu-text,
@@ -427,4 +427,70 @@ section:not(:first-child) {
 .carousel-control-next-icon {
   width: 15px;
   height: 15px;
+}
+
+.how-we-do .section-title {
+  margin-bottom: 60px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #292928;
+}
+.how-we-do .img-list {
+  display: flex;
+  justify-content: space-between;
+}
+.how-we-do .img-list .img-item {
+  position: relative;
+  display: flex;
+  width: 49%;
+}
+.how-we-do .img-list .img-item .nadya-item {
+  width: 366px;
+  height: 366px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 250px;
+  background-image: url("../../images/nadya-study.png");
+}
+.how-we-do .img-list .img-item .adv-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.how-we-do .img-list .img-item .adv-list .adv-item {
+  padding: 10px 5px 10px 25px;
+  border: 1px solid #53593b;
+  border-radius: 20px;
+  position: relative;
+}
+.how-we-do .img-list .img-item .adv-list .adv-item.one {
+  padding: 15px 5px 15px 25px;
+}
+.how-we-do .img-list .img-item .adv-list .adv-item .adv-item-icon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  top: 20%;
+  left: -19px;
+  border: 1px solid #53593b;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: #fdf8f0;
+}
+.how-we-do .img-list .img-item .adv-list .adv-item .adv-item-icon.icon-pos {
+  top: 15%;
+}
+.how-we-do .img-list .img-item .sasha-item {
+  width: 366px;
+  height: 366px;
+  background-repeat: no-repeat;
+  background-position: 25px 15px;
+  background-size: 290px;
+  background-image: url("../../images/sasha-study.png");
 }/*# sourceMappingURL=main.css.map */

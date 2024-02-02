@@ -1,0 +1,77 @@
+.how-we-do {
+  .section-title {
+    margin-bottom: 60px;
+
+    font-family: $mainFont;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.5;
+    color: $primaryColor;
+  }
+
+  .img-list {
+    display: flex;
+    justify-content: space-between;
+
+    .img-item {
+      position: relative;
+      display: flex;
+
+      width: 49%;
+      .nadya-item {
+        width: 366px;
+        height: 366px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 250px;
+        background-image: url('../../images/nadya-study.png');
+      }
+
+      .adv-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        .adv-item {
+          padding: 10px 5px 10px 25px;
+          border: 1px solid $green;
+          border-radius: 20px;
+          position: relative;
+
+          &.one {
+            padding: 15px 5px 15px 25px;
+            
+          }
+
+          .adv-item-icon {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            z-index: 1;
+            top: 20%;
+            left: -19px;
+            border: 1px solid $green;
+            border-radius: 50%;
+            padding: 5px;
+            background-color: $bodyColor;
+
+            &.icon-pos {
+              top: 15%;
+            }
+          }
+        }
+      }
+      .sasha-item {
+        width: 366px;
+        height: 366px;
+        background-repeat: no-repeat;
+        background-position: 25px 15px;
+        background-size: 290px;
+        background-image: url('../../images/sasha-study.png');
+      }
+    }
+  }
+}
