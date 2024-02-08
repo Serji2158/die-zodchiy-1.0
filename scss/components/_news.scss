@@ -1,0 +1,35 @@
+.title-box {
+  position: relative;
+
+  .icon-news {
+    position: absolute;
+    top: 27px;
+    left: 26px;
+    width: 45px;
+    height: 57px;
+    background-image: url(../../images/icon-news.png),url(../../images/icon-news-three.png),url(../../images/icon-news-two.png);
+    background-position: 4px,21px,33px 45px;
+    background-repeat: no-repeat;
+    z-index: 1;    
+  }
+  
+  .icon-news-elips {
+    position: absolute;
+    top: 65px;
+    left: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 158px;
+    height: 60px;
+    background-color: #d69347;
+    border-radius: 27px;
+    transform: rotate(6deg);
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #fff;
+  }
+}
