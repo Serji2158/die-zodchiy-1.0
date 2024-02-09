@@ -57,8 +57,7 @@ body {
   font-size: 40px;
 }
 
-section:not(:first-child),
-section:not(:last-child) {
+section:not(:first-child) {
   padding-bottom: 100px;
 }
 
