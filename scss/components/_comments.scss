@@ -1,5 +1,6 @@
 .comments {
   position: relative;
+  // padding-bottom: 145px;
 }
 .section-title {
   margin-bottom: 70px;
@@ -10,7 +11,7 @@
 
 .comments-content {
   display: flex;
-      column-gap: 158px;
+  // column-gap: 158px;
   .form {
     display: flex;
     flex-direction: column;
@@ -54,11 +55,12 @@
 
   .comments-img {
     position: relative;
-    width: 535px;
-    height: 425px;
-    background-image: url(../../images/comments-img.png);
+    width: 700px;
+    height: 616px;
+    background-image: url(../../images/comments-bg.png);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position-y: bottom;
 
     .comments-star,
     .comments-star-small,
@@ -66,41 +68,33 @@
       position: absolute;
     }
     .comments-star {
-      top: 0;
-      right: 125px;
+      top: 22px;
+      right: 100px;
     }
     .comments-star-small {
-      top: 65px;
-      right: 125px;
+      top: 95px;
+      right: 100px;
     }
     .comments-star-title {
-      top: 45px;
-      right: 155px;
+      top: 65px;
+      right: 130px;
       font-weight: 500;
       font-size: 14px;
       line-height: 1.21;
       color: $textColorWhite;
     }
-  }
-}
 
-.comments-line {
-  position: absolute;
-  bottom: 45px;
-  left: 700px;
-  width: 477px;
-  height: 202px;
-  background-image: url(../../images/comments-line.png);
-  background-repeat: no-repeat;
-
-  .comments-line-text {
+    .comments-line-text {
     position: absolute;
-    top: 54px;
-    right: -90px;
-    width: 230px;
+    bottom: 85px;
+    right: 150px;
+    width: 232px;
 
     font-size: 20px;
     text-align: center;
     color: $primaryColor;
   }
+  }
 }
+
+

@@ -57,8 +57,13 @@ body {
   font-size: 40px;
 }
 
-section:not(:first-child) {
-  padding: 100px 0;
+section:not(:first-child),
+section:not(:last-child) {
+  padding-bottom: 100px;
+}
+
+section:last-child {
+  padding-bottom: 145px;
 }
 
 .hero-content .content-info .getToKnow-box .getToKnow-link, .hero-content .content-info .info-list .list-item {
@@ -126,7 +131,6 @@ section:not(:first-child) {
 
 .line-hr {
   background-image: url("../../images/line-hr.png");
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 10px;
@@ -606,8 +610,6 @@ section:not(:first-child) {
 
 .comments-content {
   display: flex;
-  -moz-column-gap: 158px;
-       column-gap: 158px;
 }
 .comments-content .form {
   display: flex;
@@ -645,11 +647,12 @@ section:not(:first-child) {
 }
 .comments-content .comments-img {
   position: relative;
-  width: 535px;
-  height: 425px;
-  background-image: url(../../images/comments-img.png);
+  width: 700px;
+  height: 616px;
+  background-image: url(../../images/comments-bg.png);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position-y: bottom;
 }
 .comments-content .comments-img .comments-star,
 .comments-content .comments-img .comments-star-small,
@@ -657,37 +660,80 @@ section:not(:first-child) {
   position: absolute;
 }
 .comments-content .comments-img .comments-star {
-  top: 0;
-  right: 125px;
+  top: 22px;
+  right: 100px;
 }
 .comments-content .comments-img .comments-star-small {
-  top: 65px;
-  right: 125px;
+  top: 95px;
+  right: 100px;
 }
 .comments-content .comments-img .comments-star-title {
-  top: 45px;
-  right: 155px;
+  top: 65px;
+  right: 130px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.21;
   color: #ffffff;
 }
-
-.comments-line {
+.comments-content .comments-img .comments-line-text {
   position: absolute;
-  bottom: 45px;
-  left: 700px;
-  width: 477px;
-  height: 202px;
-  background-image: url(../../images/comments-line.png);
-  background-repeat: no-repeat;
-}
-.comments-line .comments-line-text {
-  position: absolute;
-  top: 54px;
-  right: -90px;
-  width: 230px;
+  bottom: 85px;
+  right: 150px;
+  width: 232px;
   font-size: 20px;
   text-align: center;
   color: #292928;
+}
+
+.footer {
+  height: 270px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #59613d;
+}
+.footer .footer-text {
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #f8f8f8;
+}
+.footer .footer-position {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footer-position .contacts .contacts-list {
+  row-gap: 10px;
+}
+.footer .footer-position .contacts .contacts-list .contacts-item .contacts-link {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #f8f8f8;
+}
+.footer .footer-position .socials .socials-list {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .footer-position .notifications .notification-input {
+  border: 1px solid #f8f8f8;
+  border-radius: 20px 20px 0 20px;
+  padding: 15px;
+  width: 393px;
+  height: 60px;
+  background: #f8f8f8;
+}
+.footer .footer-position .notifications .notification-input .notification-input::-moz-placeholder {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #595959;
+}
+.footer .footer-position .notifications .notification-input .notification-input::placeholder {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #595959;
 }/*# sourceMappingURL=main.css.map */
