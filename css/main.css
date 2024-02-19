@@ -741,6 +741,16 @@ section:last-child {
   padding-top: 50px;
   padding-bottom: 60px;
 }
+.rep-breadcrumb .breadcrumb {
+  font-weight: 400;
+  font-size: 16px;
+}
+.rep-breadcrumb .breadcrumb-link {
+  color: #b5b5b5;
+}
+.rep-breadcrumb.active {
+  color: #292928;
+}
 
 .rep-hero {
   padding-top: 435px;
