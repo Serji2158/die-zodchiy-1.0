@@ -735,4 +735,61 @@ section:last-child {
   font-size: 20px;
   line-height: 1.5;
   color: #595959;
+}
+
+.rep-breadcrumb {
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+.rep-hero {
+  padding-top: 435px;
+  padding-bottom: 320px;
+  width: 1442px;
+  height: 1030px;
+  margin: 0 auto;
+  background-image: url(../../../images/images-rep/rep-sasha.png), url(../../../images/images-rep/rep-hero-bg2.png), url(../../../images/images-rep/rep-hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: 320px 350px, 0px 155px, center;
+}
+.rep-hero .rep-hero-forwhom {
+  display: flex;
+  justify-content: space-between;
+  width: 235px;
+  margin-bottom: 10px;
+}
+.rep-hero .rep-hero-forwhom .rep-forwhom-spec {
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: 1px solid #8d8d8d;
+  color: #292928;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.rep-hero .rep-title {
+  margin-bottom: 10px;
+  color: #292928;
+  font-size: 47px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.rep-hero .rep-course-desc {
+  width: 510px;
+  margin-bottom: 30px;
+  color: #292928;
+  font-size: 16px;
+  font-weight: 400;
+}
+.rep-hero .rep-course-link {
+  display: flex;
+  justify-content: center;
+  width: 256px;
+  padding: 10px 55px;
+  border-radius: 20px;
+  background-color: #d69347;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
 }/*# sourceMappingURL=main.css.map */
