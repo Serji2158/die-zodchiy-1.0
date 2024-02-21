@@ -802,4 +802,33 @@ section:last-child {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.5;
+}
+
+.rep-about {
+  padding-top: 100px;
+}
+.rep-about .rep-about-title {
+  margin-bottom: 60px;
+  font-size: 40px;
+}
+.rep-about .course-desc-list {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 69px;
+}
+.rep-about .course-desc-item:first-child {
+  width: 392px;
+  background-image: url(../../../images/images-rep/);
+}
+.rep-about .course-desc-item:nth-child(2) {
+  width: 426px;
+}
+.rep-about .course-desc-item:nth-child(3),
+.rep-about .course-desc-item:nth-child(5) {
+  width: 386px;
+  margin-left: 39px;
+}
+.rep-about .course-desc-item:nth-child(4) {
+  width: 677px;
 }/*# sourceMappingURL=main.css.map */
