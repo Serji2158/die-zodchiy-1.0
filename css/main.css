@@ -969,6 +969,20 @@ section:last-child {
   border-radius: 50%;
   background-color: #292928;
 }
+.rep-program .rep-program-btn {
+  display: block;
+  width: 352px;
+  height: 50px;
+  margin: 60px auto 0;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+  background: #d69347;
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+}
 
 .prog-wrapper {
   position: relative;

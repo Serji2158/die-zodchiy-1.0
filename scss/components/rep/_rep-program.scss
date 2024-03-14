@@ -1,15 +1,29 @@
-
 .rep-program {
-
-  .carousel-indicators{
+  .carousel-indicators {
     bottom: -40px;
   }
 
-    button[data-bs-slide-to] {
+  button[data-bs-slide-to] {
     width: 10px;
     height: 10px;
     border-radius: 50%;
     background-color: $primaryColor;
+  }
+
+  .rep-program-btn {
+    display: block;
+    width: 352px;
+    height: 50px;
+    margin: 60px auto 0;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+    background: $border-color;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
   }
 }
 
@@ -69,8 +83,7 @@
     }
   }
 
-   .lesson.lesson-two {
-
+  .lesson.lesson-two {
     .lesson-img {
       border-radius: 20px;
       width: 346px;
