@@ -810,14 +810,11 @@ section:last-child {
 .rep-about .rep-position {
   position: relative;
 }
-.rep-about .rep-about-title {
-  margin-bottom: 60px;
-  font-size: 40px;
-}
 .rep-about .course-desc-list {
   position: relative;
   display: flex;
   flex-wrap: wrap;
+  height: 490px;
   padding: 0 69px;
 }
 .rep-about .desc-item-title {
@@ -956,4 +953,117 @@ section:last-child {
   position: absolute;
   right: 401px;
   top: 320px;
+}
+
+.sec-title {
+  margin-bottom: 60px;
+  font-size: 40px;
+}
+
+.rep-program .carousel-indicators {
+  bottom: -40px;
+}
+.rep-program button[data-bs-slide-to] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #292928;
+}
+
+.prog-wrapper {
+  position: relative;
+  height: 500px;
+}
+
+.prog-decoration {
+  height: 105px;
+  background-image: url(../../../images/images-rep/rep-program.png);
+  background-position: -85px;
+  background-size: cover;
+}
+
+.lessons {
+  position: absolute;
+  top: 80px;
+  display: flex;
+  height: 380px;
+  padding: 0 35px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.lessons .lesson {
+  border: 1px solid #53593b;
+  border-radius: 20px;
+  padding: 20px;
+  width: 380px;
+  height: 380px;
+}
+.lessons .lesson.lesson-one {
+  transform: rotate(-5deg);
+}
+.lessons .lesson.lesson-one .lesson-img {
+  border-radius: 20px;
+  width: 346px;
+  height: 210px;
+  background-image: url(../../../images/images-rep/rep-lesson-bg.png);
+  transform: rotate(5deg);
+  background-size: cover;
+}
+.lessons .lesson.lesson-one .lesson-title {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+}
+.lessons .lesson.lesson-one .lesson-desc {
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  text-align: left;
+}
+.lessons .lesson.lesson-two .lesson-img {
+  border-radius: 20px;
+  width: 346px;
+  height: 210px;
+  background-image: url(../../../images/images-rep/rep-lesson-bg.png);
+  transform: rotate(6deg);
+  background-size: cover;
+}
+.lessons .lesson.lesson-two .lesson-title {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+}
+.lessons .lesson.lesson-two .lesson-desc {
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  text-align: left;
+}
+.lessons .lesson.lesson-three {
+  transform: rotate(5deg);
+}
+.lessons .lesson.lesson-three .lesson-img {
+  border-radius: 20px;
+  width: 346px;
+  height: 210px;
+  background-image: url(../../../images/images-rep/rep-lesson-bg.png);
+  transform: rotate(6deg);
+  background-size: cover;
+}
+.lessons .lesson.lesson-three .lesson-title {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+}
+.lessons .lesson.lesson-three .lesson-desc {
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  text-align: left;
 }/*# sourceMappingURL=main.css.map */

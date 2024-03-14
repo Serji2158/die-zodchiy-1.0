@@ -4,16 +4,13 @@
   .rep-position {
     position: relative;
   }
-  .rep-about-title {
-    margin-bottom: 60px;
-
-    font-size: 40px;
-  }
+ 
 
   .course-desc-list {
     position: relative;
     display: flex;
     flex-wrap: wrap;
+    height: 490px;
     padding: 0 69px;
   }
 
@@ -184,3 +181,9 @@
     top: 320px;
   }
 }
+ .sec-title {
+    margin-bottom: 60px;
+    font-size: 40px;
+  }
+
+
