@@ -1080,4 +1080,71 @@ section:last-child {
   font-size: 16px;
   color: #000;
   text-align: left;
+}
+
+.conveyor {
+  width: 1457px;
+  height: 920px;
+  margin: 0 auto;
+  background-image: url("../../../images/images-rep/rep-conveer.png");
+  background-repeat: no-repeat;
+}
+.conveyor .carousel.slide {
+  width: 560px;
+  height: 180px;
+  margin-left: 45%;
+}
+.conveyor .carousel.slide .carousel-indicators {
+  bottom: -10px;
+  background-color: #fdf8f0;
+  margin: 0;
+}
+.conveyor .carousel.slide .carousel-indicators button[data-bs-slide-to] {
+  width: 33%;
+  background-color: #292928;
+}
+.conveyor .carousel.slide .reviewer,
+.conveyor .carousel.slide .review-text {
+  font-weight: 400;
+  font-size: 16px;
+  color: #292928;
+}
+.conveyor .carousel.slide .rate-list {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.conveyor .carousel.slide .review-text {
+  margin-top: 20px;
+}
+.conveyor .carousel.slide .carousel-control-next {
+  right: -20px;
+  background-color: transparent;
+  border-radius: 0;
+}
+.conveyor .carousel.slide.three {
+  margin-top: 180px;
+  margin-left: 480px;
+  width: 850px;
+  height: auto;
+}
+.conveyor .carousel.slide.three .carousel-inner .conveyor-list {
+  display: flex;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  width: 830px;
+}
+.conveyor .carousel.slide.three .carousel-inner .conveyor-list .conveyor-item {
+  flex-basis: calc((100% - 80px) / 3);
+  height: 468px;
+  background-repeat: no-repeat;
+}
+.conveyor .carousel.slide.three .carousel-inner .conveyor-list .conveyor-item.one {
+  background-image: url("../../../images/images-rep/rep-rumors-img1.png");
+}
+.conveyor .carousel.slide.three .carousel-inner .conveyor-list .conveyor-item.two {
+  background-image: url("../../../images/images-rep/rep-rumors-img2.png");
+}
+.conveyor .carousel.slide.three .carousel-inner .conveyor-list .conveyor-item.three {
+  background-image: url("../../../images/images-rep/rep-rumors-img3.png");
 }/*# sourceMappingURL=main.css.map */

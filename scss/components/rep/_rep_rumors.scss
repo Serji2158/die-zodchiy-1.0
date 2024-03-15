@@ -1,0 +1,83 @@
+.conveyor {
+  width: 1457px;
+  height: 920px;
+  margin: 0 auto;
+
+  background-image: url('../../../images/images-rep/rep-conveer.png');
+  background-repeat: no-repeat;
+
+  .carousel.slide {
+    width: 560px;
+    height: 180px;
+    margin-left: 45%;
+
+    .carousel-indicators {
+      bottom: -10px;
+      background-color: $bodyColor;
+      margin: 0;
+
+      button[data-bs-slide-to] {
+        width: 33%;
+        background-color: $primaryColor;
+      }
+    }
+
+    .reviewer,
+    .review-text {
+      font-weight: 400;
+      font-size: 16px;
+      color: $primaryColor;
+    }
+
+    .rate-list {
+      display: flex;
+      align-items: center;
+      margin-top: 5px;
+    }
+
+    .review-text {
+      margin-top: 20px;
+    }
+
+    .carousel-control-next {
+      right: -20px;
+
+      background-color: transparent;
+      border-radius: 0;
+    }
+  }
+
+  .carousel.slide.three {
+    margin-top: 180px;
+    margin-left: 480px;
+    width: 850px;
+    height: auto;
+
+    .carousel-inner {
+      // width: 830px;
+
+      .conveyor-list {
+        display: flex;
+        column-gap: 40px;
+        width: 830px;
+
+        .conveyor-item {
+          // width: 248px;
+          flex-basis: calc((100% - 80px) / 3);
+          height: 468px;
+          background-repeat: no-repeat;
+
+          &.one {
+            background-image: url('../../../images/images-rep/rep-rumors-img1.png');
+          }
+          &.two {
+            background-image: url('../../../images/images-rep/rep-rumors-img2.png');
+          }
+          &.three {
+            background-image: url('../../../images/images-rep/rep-rumors-img3.png');
+          }
+        }
+      }
+    }
+  }
+}
