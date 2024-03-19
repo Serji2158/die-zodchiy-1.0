@@ -1,0 +1,72 @@
+.lectures-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 800px;
+  
+
+  .lecture {
+    position: relative;
+
+
+    .lecture-heading-icon-sasha {
+      position: absolute;
+      top: 40px;
+      left: -100px;
+      fill: $border-color;
+    }
+
+    .lecture-heading.sasha {
+      position: absolute;
+      top: 60px;
+      left: -50px;
+    }    
+
+    .lecture-heading {
+      border-radius: 20px;
+      padding: 10px;
+      width: 200px;
+      height: 50px;
+
+      box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);
+      background-color: $border-color;
+      transform: rotate(-15deg);
+      font-size: 20px;
+      color: #fff;
+      text-align: center;
+    }
+
+     .lecture-heading.nadiya {
+      position: absolute;
+      bottom: 30%;
+      right: -10%;
+    }
+
+    .lecture-heading-icon-nadiya {
+      position: absolute;
+      bottom: 35%;
+      right: -25%;
+      fill: $border-color;
+    }
+
+    .lecture-title {
+      margin-bottom: 20px;
+
+      font-size: 30px;
+      font-weight: 700;
+      color: #000;
+    }
+
+    .lecture-img {
+      margin-bottom: 20px;
+    }
+
+    .lecture-bullets {
+      width: 300px;
+
+      font-weight: 400;
+      font-size: 16px;
+      color: #000;
+    }
+  }
+}

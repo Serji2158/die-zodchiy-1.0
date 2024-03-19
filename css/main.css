@@ -1147,4 +1147,63 @@ section:last-child {
 }
 .conveyor .carousel.slide.three .carousel-inner .conveyor-list .conveyor-item.three {
   background-image: url("../../../images/images-rep/rep-rumors-img3.png");
+}
+
+.lectures-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 800px;
+}
+.lectures-list .lecture {
+  position: relative;
+}
+.lectures-list .lecture .lecture-heading-icon-sasha {
+  position: absolute;
+  top: 40px;
+  left: -100px;
+  fill: #d69347;
+}
+.lectures-list .lecture .lecture-heading.sasha {
+  position: absolute;
+  top: 60px;
+  left: -50px;
+}
+.lectures-list .lecture .lecture-heading {
+  border-radius: 20px;
+  padding: 10px;
+  width: 200px;
+  height: 50px;
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);
+  background-color: #d69347;
+  transform: rotate(-15deg);
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+.lectures-list .lecture .lecture-heading.nadiya {
+  position: absolute;
+  bottom: 30%;
+  right: -10%;
+}
+.lectures-list .lecture .lecture-heading-icon-nadiya {
+  position: absolute;
+  bottom: 35%;
+  right: -25%;
+  fill: #d69347;
+}
+.lectures-list .lecture .lecture-title {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+}
+.lectures-list .lecture .lecture-img {
+  margin-bottom: 20px;
+}
+.lectures-list .lecture .lecture-bullets {
+  width: 300px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
 }/*# sourceMappingURL=main.css.map */
