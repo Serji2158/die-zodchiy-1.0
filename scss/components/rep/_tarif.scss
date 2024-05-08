@@ -1,0 +1,85 @@
+.tarif-content-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .sasha-joy {
+    width: 270px;
+    height: 370px;
+
+    background-image: url(../../../images/images-rep/rep-sasha-joy-all.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .all-included {
+    border: 1px solid $green;
+    border-radius: 20px;
+    padding: 20px;
+    width: 483px;
+    height: 454px;
+    .all-included-title {
+      font-family: var(--font-family);
+      font-size: 24px;
+      color: $primaryColor;
+      margin-bottom: 30px;
+    }
+    .all-list {
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      margin-bottom: 50px;
+      .all-item {
+        display: flex;
+        column-gap: 10px;
+        color: $primaryColor;
+      }
+    }
+    .all-price {
+      display: block;
+      font-size: 36px;
+      color: $primaryColor;
+      margin-bottom: 20px;
+    }
+    .all-buttons {
+      display: flex;
+      justify-content: space-between;
+      .all-button-join {
+        border: none;
+        border-radius: 20px;
+        padding: 10px;
+        width: 195px;
+        height: 50px;
+        background: $border-color;
+
+        font-weight: 500;
+        font-size: 20px;
+        color: #fff;
+      }
+      .all-button-booking {
+        border: 1px solid $border-color;
+        border-radius: 20px;
+        padding: 10px;
+        width: 195px;
+        height: 50px;
+        background: $bodyColor;
+
+        font-weight: 500;
+        font-size: 20px;
+
+        color: $border-color;
+      }
+    }
+  }
+
+  .nadya-call {
+    width: 333px;
+    height: 315px;
+
+    background-image: url(../../../images/images-rep/rep-nadya-call-all.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
