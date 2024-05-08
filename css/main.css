@@ -1324,4 +1324,20 @@ section:last-child {
   width: 671px;
   height: 510px;
   background-image: url(../../../images/images-rep/rep-sasha-registration.png);
+}
+
+.button-up {
+  position: relative;
+}
+.button-up .btn-up {
+  position: absolute;
+  right: 100px;
+  bottom: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #53593b;
 }/*# sourceMappingURL=main.css.map */

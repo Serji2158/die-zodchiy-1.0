@@ -1,0 +1,18 @@
+.button-up{
+  position: relative;
+
+  .btn-up {
+  position: absolute;
+  right: 100px;
+  bottom: 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: $green;
+}
+
+}
